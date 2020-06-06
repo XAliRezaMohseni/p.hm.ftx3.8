@@ -1,0 +1,1108 @@
+\PassOptionsToPackage{pdfinfo=off}{bidi}
+\documentclass{article}
+\usepackage[Kashida=leaders+glyph,kashidastretch=0.14 em plus 0.5 em]{xepersian-hm}
+
+\settextfont[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FElmiBd},%
+  ItalicFont={HM_FElmiIt},%
+  BoldItalicFont={HM_FElmiBdIt},%
+  SlantedFont={HM_FElmiOb},%
+  BoldSlantedFont={HM_FElmiObBd}%
+  ]{HM_FElmi}
+
+\def\SampleText{این یک متن آزمایشی برای ارائهٔ نمونه است. ۰۱۲۳۴۵۶۷۸۹‏}
+
+\let\bL\beginL
+\let\eL\endL
+
+\defpersianfont\HMFArshia[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FArshiaBd},%
+  ItalicFont={HM_FArshiaIt},%
+  BoldItalicFont={HM_FArshiaBdIt},%
+  SlantedFont={HM_FArshiaOb},%
+  BoldSlantedFont={HM_FArshiaObBd}%
+  ]{HM_FArshia}
+
+\defpersianfont\HMFArshiaOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FArshiaOlIt},%
+  SlantedFont={HM_FArshiaOlOb},%
+  ]{HM_FArshiaOl}
+
+\defpersianfont\HMFArshiaSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FArshiaSdIt},%
+  SlantedFont={HM_FArshiaSdOb},%
+  ]{HM_FArshiaSd}
+
+\defpersianfont\HMFAzin[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FAzinBd},%
+  ItalicFont={HM_FAzinIt},%
+  BoldItalicFont={HM_FAzinBdIt},%
+  SlantedFont={HM_FAzinOb},%
+  BoldSlantedFont={HM_FAzinObBd}%
+  ]{HM_FAzin}
+
+\defpersianfont\HMFAzinOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FAzinOlIt},%
+  SlantedFont={HM_FAzinOlOb},%
+  ]{HM_FAzinOl}
+
+\defpersianfont\HMFAzinSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FAzinSdIt},%
+  SlantedFont={HM_FAzinSdOb},%
+  ]{HM_FAzinSd}
+
+\defpersianfont\HMFBadr[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FBadrBd},%
+  ItalicFont={HM_FBadrIt},%
+  BoldItalicFont={HM_FBadrBdIt},%
+  SlantedFont={HM_FBadrOb},%
+  BoldSlantedFont={HM_FBadrObBd}%
+  ]{HM_FBadr}
+
+\defpersianfont\HMFBadrOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FBadrOlIt},%
+  SlantedFont={HM_FBadrOlOb},%
+  ]{HM_FBadrOl}
+
+\defpersianfont\HMFBadrSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FBadrSdIt},%
+  SlantedFont={HM_FBadrSdOb},%
+  ]{HM_FBadrSd}
+
+\defpersianfont\HMFElham[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FElhamBd},%
+  ItalicFont={HM_FElhamIt},%
+  BoldItalicFont={HM_FElhamBdIt},%
+  SlantedFont={HM_FElhamOb},%
+  BoldSlantedFont={HM_FElhamObBd}%
+  ]{HM_FElham}
+
+\defpersianfont\HMFElhamOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FElhamOlIt},%
+  SlantedFont={HM_FElhamOlOb},%
+  ]{HM_FElhamOl}
+
+\defpersianfont\HMFElhamSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FElhamSdIt},%
+  SlantedFont={HM_FElhamSdOb},%
+  ]{HM_FElhamSd}
+
+\defpersianfont\HMFElmi[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FElmiBd},%
+  ItalicFont={HM_FElmiIt},%
+  BoldItalicFont={HM_FElmiBdIt},%
+  SlantedFont={HM_FElmiOb},%
+  BoldSlantedFont={HM_FElmiObBd}%
+  ]{HM_FElmi}
+
+\defpersianfont\HMFElmiOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FElmiOlIt},%
+  SlantedFont={HM_FElmiOlOb},%
+  ]{HM_FElmiOl}
+
+\defpersianfont\HMFElmiSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FElmiSdIt},%
+  SlantedFont={HM_FElmiSdOb},%
+  ]{HM_FElmiSd}
+
+\defpersianfont\HMFFarnaz[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FFarnazBd},%
+  ItalicFont={HM_FFarnazIt},%
+  BoldItalicFont={HM_FFarnazBdIt},%
+  SlantedFont={HM_FFarnazOb},%
+  BoldSlantedFont={HM_FFarnazObBd}%
+  ]{HM_FFarnaz}
+
+\defpersianfont\HMFFarnazOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FFarnazOlIt},%
+  SlantedFont={HM_FFarnazOlOb},%
+  ]{HM_FFarnazOl}
+
+\defpersianfont\HMFFarnazSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FFarnazSdIt},%
+  SlantedFont={HM_FFarnazSdOb},%
+  ]{HM_FFarnazSd}
+
+\defpersianfont\HMFHoma[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FHomaBd},%
+  ItalicFont={HM_FHomaIt},%
+  BoldItalicFont={HM_FHomaBdIt},%
+  SlantedFont={HM_FHomaOb},%
+  BoldSlantedFont={HM_FHomaObBd}%
+  ]{HM_FHoma}
+
+\defpersianfont\HMFHomaOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FHomaOlIt},%
+  SlantedFont={HM_FHomaOlOb},%
+  ]{HM_FHomaOl}
+
+\defpersianfont\HMFHomaSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FHomaSdIt},%
+  SlantedFont={HM_FHomaSdOb},%
+  ]{HM_FHomaSd}
+
+\defpersianfont\HMFJadid[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FJadidBd},%
+  ItalicFont={HM_FJadidIt},%
+  BoldItalicFont={HM_FJadidBdIt},%
+  SlantedFont={HM_FJadidOb},%
+  BoldSlantedFont={HM_FJadidObBd}%
+  ]{HM_FJadid}
+
+\defpersianfont\HMFJadidOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FJadidOlIt},%
+  SlantedFont={HM_FJadidOlOb},%
+  ]{HM_FJadidOl}
+
+\defpersianfont\HMFJadidSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FJadidSdIt},%
+  SlantedFont={HM_FJadidSdOb},%
+  ]{HM_FJadidSd}
+
+\defpersianfont\HMFKamran[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FKamranBd},%
+  ItalicFont={HM_FKamranIt},%
+  BoldItalicFont={HM_FKamranBdIt},%
+  SlantedFont={HM_FKamranOb},%
+  BoldSlantedFont={HM_FKamranObBd}%
+  ]{HM_FKamran}
+
+\defpersianfont\HMFKamranOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FKamranOlIt},%
+  SlantedFont={HM_FKamranOlOb},%
+  ]{HM_FKamranOl}
+
+\defpersianfont\HMFKamranSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FKamranSdIt},%
+  SlantedFont={HM_FKamranSdOb},%
+  ]{HM_FKamranSd}
+
+\defpersianfont\HMFKoodak[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FKoodakBd},%
+  ItalicFont={HM_FKoodakIt},%
+  BoldItalicFont={HM_FKoodakBdIt},%
+  SlantedFont={HM_FKoodakOb},%
+  BoldSlantedFont={HM_FKoodakObBd}%
+  ]{HM_FKoodak}
+
+\defpersianfont\HMFKoodakOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FKoodakOlIt},%
+  SlantedFont={HM_FKoodakOlOb},%
+  ]{HM_FKoodakOl}
+
+\defpersianfont\HMFKoodakSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FKoodakSdIt},%
+  SlantedFont={HM_FKoodakSdOb},%
+  ]{HM_FKoodakSd}
+
+\defpersianfont\HMFLotoos[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FLotoosBd},%
+  ItalicFont={HM_FLotoosIt},%
+  BoldItalicFont={HM_FLotoosBdIt},%
+  SlantedFont={HM_FLotoosOb},%
+  BoldSlantedFont={HM_FLotoosObBd}%
+  ]{HM_FLotoos}
+
+\defpersianfont\HMFLotoosOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FLotoosOlIt},%
+  SlantedFont={HM_FLotoosOlOb},%
+  ]{HM_FLotoosOl}
+
+\defpersianfont\HMFLotoosSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FLotoosSdIt},%
+  SlantedFont={HM_FLotoosSdOb},%
+  ]{HM_FLotoosSd}
+
+\defpersianfont\HMFMitra[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FMitraBd},%
+  ItalicFont={HM_FMitraIt},%
+  BoldItalicFont={HM_FMitraBdIt},%
+  SlantedFont={HM_FMitraOb},%
+  BoldSlantedFont={HM_FMitraObBd}%
+  ]{HM_FMitra}
+
+\defpersianfont\HMFMitraOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FMitraOlIt},%
+  SlantedFont={HM_FMitraOlOb},%
+  ]{HM_FMitraOl}
+
+\defpersianfont\HMFMitraSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FMitraSdIt},%
+  SlantedFont={HM_FMitraSdOb},%
+  ]{HM_FMitraSd}
+
+\defpersianfont\HMFNasim[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FNasimBd},%
+  ItalicFont={HM_FNasimIt},%
+  BoldItalicFont={HM_FNasimBdIt},%
+  SlantedFont={HM_FNasimOb},%
+  BoldSlantedFont={HM_FNasimObBd}%
+  ]{HM_FNasim}
+
+\defpersianfont\HMFNasimOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FNasimOlIt},%
+  SlantedFont={HM_FNasimOlOb},%
+  ]{HM_FNasimOl}
+
+\defpersianfont\HMFNasimSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FNasimSdIt},%
+  SlantedFont={HM_FNasimSdOb},%
+  ]{HM_FNasimSd}
+
+\defpersianfont\HMFNazli[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FNazliBd},%
+  ItalicFont={HM_FNazliIt},%
+  BoldItalicFont={HM_FNazliBdIt},%
+  SlantedFont={HM_FNazliOb},%
+  BoldSlantedFont={HM_FNazliObBd}%
+  ]{HM_FNazli}
+
+\defpersianfont\HMFNazliOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FNazliOlIt},%
+  SlantedFont={HM_FNazliOlOb},%
+  ]{HM_FNazliOl}
+
+\defpersianfont\HMFNazliSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FNazliSdIt},%
+  SlantedFont={HM_FNazliSdOb},%
+  ]{HM_FNazliSd}
+
+\defpersianfont\HMFRoya[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FRoyaBd},%
+  ItalicFont={HM_FRoyaIt},%
+  BoldItalicFont={HM_FRoyaBdIt},%
+  SlantedFont={HM_FRoyaOb},%
+  BoldSlantedFont={HM_FRoyaObBd}%
+  ]{HM_FRoya}
+
+\defpersianfont\HMFRoyaOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FRoyaOlIt},%
+  SlantedFont={HM_FRoyaOlOb},%
+  ]{HM_FRoyaOl}
+
+\defpersianfont\HMFRoyaSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FRoyaSdIt},%
+  SlantedFont={HM_FRoyaSdOb},%
+  ]{HM_FRoyaSd}
+
+\defpersianfont\HMFTabassom[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FTabassomBd},%
+  ItalicFont={HM_FTabassomIt},%
+  BoldItalicFont={HM_FTabassomBdIt},%
+  SlantedFont={HM_FTabassomOb},%
+  BoldSlantedFont={HM_FTabassomObBd}%
+  ]{HM_FTabassom}
+
+\defpersianfont\HMFTabassomOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FTabassomOlIt},%
+  SlantedFont={HM_FTabassomOlOb},%
+  ]{HM_FTabassomOl}
+
+\defpersianfont\HMFTabassomSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FTabassomSdIt},%
+  SlantedFont={HM_FTabassomSdOb},%
+  ]{HM_FTabassomSd}
+
+\defpersianfont\HMFTitr[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FTitrBd},%
+  ItalicFont={HM_FTitrIt},%
+  BoldItalicFont={HM_FTitrBdIt},%
+  SlantedFont={HM_FTitrOb},%
+  BoldSlantedFont={HM_FTitrObBd}%
+  ]{HM_FTitr}
+
+\defpersianfont\HMFTitrOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FTitrOlIt},%
+  SlantedFont={HM_FTitrOlOb},%
+  ]{HM_FTitrOl}
+
+\defpersianfont\HMFTitrSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FTitrSdIt},%
+  SlantedFont={HM_FTitrSdOb},%
+  ]{HM_FTitrSd}
+
+\defpersianfont\HMFTraffic[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FTrafficBd},%
+  ItalicFont={HM_FTrafficIt},%
+  BoldItalicFont={HM_FTrafficBdIt},%
+  SlantedFont={HM_FTrafficOb},%
+  BoldSlantedFont={HM_FTrafficObBd}%
+  ]{HM_FTraffic}
+
+\defpersianfont\HMFTrafficOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FTrafficOlIt},%
+  SlantedFont={HM_FTrafficOlOb},%
+  ]{HM_FTrafficOl}
+
+\defpersianfont\HMFTrafficSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FTrafficSdIt},%
+  SlantedFont={HM_FTrafficSdOb},%
+  ]{HM_FTrafficSd}
+
+\defpersianfont\HMFYaghut[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FYaghutBd},%
+  ItalicFont={HM_FYaghutIt},%
+  BoldItalicFont={HM_FYaghutBdIt},%
+  SlantedFont={HM_FYaghutOb},%
+  BoldSlantedFont={HM_FYaghutObBd}%
+  ]{HM_FYaghut}
+
+\defpersianfont\HMFYaghutOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FYaghutOlIt},%
+  SlantedFont={HM_FYaghutOlOb},%
+  ]{HM_FYaghutOl}
+
+\defpersianfont\HMFYaghutSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FYaghutSdIt},%
+  SlantedFont={HM_FYaghutSdOb},%
+  ]{HM_FYaghutSd}
+
+\defpersianfont\HMFZar[Scale=1.220,ExternalLocation,%
+  BoldFont={HM_FZarBd},%
+  ItalicFont={HM_FZarIt},%
+  BoldItalicFont={HM_FZarBdIt},%
+  SlantedFont={HM_FZarOb},%
+  BoldSlantedFont={HM_FZarObBd}%
+  ]{HM_FZar}
+
+\defpersianfont\HMFZarOl[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FZarOlIt},%
+  SlantedFont={HM_FZarOlOb},%
+  ]{HM_FZarOl}
+
+\defpersianfont\HMFZarSd[Scale=1.220,ExternalLocation,%
+  ItalicFont={HM_FZarSdIt},%
+  SlantedFont={HM_FZarSdOb},%
+  ]{HM_FZarSd}
+
+\setlength{\textwidth}{188mm}
+\setlength{\textheight}{260mm}
+\setlength{\oddsidemargin}{-17mm}
+\setlength{\evensidemargin}{-6mm}
+\setlength{\voffset}{-30mm}
+
+\begin{document}
+\noindent
+
+\makebox[550pt]{\bL\lr{HMFArshia:}~~\dotfill~
+  \rl{\HMFArshia \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshia bfseries:}~~\dotfill~
+  \rl{\HMFArshia\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshia itshape:}~~\dotfill~
+  \rl{\HMFArshia\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshia bfseries itshape:}~~\dotfill~
+  \rl{\HMFArshia\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshia slshape:}~~\dotfill~
+  \rl{\HMFArshia\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshia bfseries slshape:}~~\dotfill~
+  \rl{\HMFArshia\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshiaOl:}~~\dotfill~
+  \rl{\HMFArshiaOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshiaOl itshape:}~~\dotfill~
+  \rl{\HMFArshiaOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshiaOl slshape:}~~\dotfill~
+  \rl{\HMFArshiaOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshiaSd:}~~\dotfill~
+  \rl{\HMFArshiaSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshiaSd itshape:}~~\dotfill~
+  \rl{\HMFArshiaSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFArshiaSd slshape:}~~\dotfill~
+  \rl{\HMFArshiaSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzin:}~~\dotfill~
+  \rl{\HMFAzin \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzin bfseries:}~~\dotfill~
+  \rl{\HMFAzin\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzin itshape:}~~\dotfill~
+  \rl{\HMFAzin\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzin bfseries itshape:}~~\dotfill~
+  \rl{\HMFAzin\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzin slshape:}~~\dotfill~
+  \rl{\HMFAzin\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzin bfseries slshape:}~~\dotfill~
+  \rl{\HMFAzin\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzinOl:}~~\dotfill~
+  \rl{\HMFAzinOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzinOl itshape:}~~\dotfill~
+  \rl{\HMFAzinOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzinOl slshape:}~~\dotfill~
+  \rl{\HMFAzinOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzinSd:}~~\dotfill~
+  \rl{\HMFAzinSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzinSd itshape:}~~\dotfill~
+  \rl{\HMFAzinSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFAzinSd slshape:}~~\dotfill~
+  \rl{\HMFAzinSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadr:}~~\dotfill~
+  \rl{\HMFBadr \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadr bfseries:}~~\dotfill~
+  \rl{\HMFBadr\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadr itshape:}~~\dotfill~
+  \rl{\HMFBadr\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadr bfseries itshape:}~~\dotfill~
+  \rl{\HMFBadr\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadr slshape:}~~\dotfill~
+  \rl{\HMFBadr\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadr bfseries slshape:}~~\dotfill~
+  \rl{\HMFBadr\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadrOl:}~~\dotfill~
+  \rl{\HMFBadrOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadrOl itshape:}~~\dotfill~
+  \rl{\HMFBadrOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadrOl slshape:}~~\dotfill~
+  \rl{\HMFBadrOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadrSd:}~~\dotfill~
+  \rl{\HMFBadrSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadrSd itshape:}~~\dotfill~
+  \rl{\HMFBadrSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFBadrSd slshape:}~~\dotfill~
+  \rl{\HMFBadrSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElham:}~~\dotfill~
+  \rl{\HMFElham \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElham bfseries:}~~\dotfill~
+  \rl{\HMFElham\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElham itshape:}~~\dotfill~
+  \rl{\HMFElham\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElham bfseries itshape:}~~\dotfill~
+  \rl{\HMFElham\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElham slshape:}~~\dotfill~
+  \rl{\HMFElham\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElham bfseries slshape:}~~\dotfill~
+  \rl{\HMFElham\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElhamOl:}~~\dotfill~
+  \rl{\HMFElhamOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElhamOl itshape:}~~\dotfill~
+  \rl{\HMFElhamOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElhamOl slshape:}~~\dotfill~
+  \rl{\HMFElhamOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElhamSd:}~~\dotfill~
+  \rl{\HMFElhamSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElhamSd itshape:}~~\dotfill~
+  \rl{\HMFElhamSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElhamSd slshape:}~~\dotfill~
+  \rl{\HMFElhamSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmi:}~~\dotfill~
+  \rl{\HMFElmi \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmi bfseries:}~~\dotfill~
+  \rl{\HMFElmi\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmi itshape:}~~\dotfill~
+  \rl{\HMFElmi\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmi bfseries itshape:}~~\dotfill~
+  \rl{\HMFElmi\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmi slshape:}~~\dotfill~
+  \rl{\HMFElmi\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmi bfseries slshape:}~~\dotfill~
+  \rl{\HMFElmi\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmiOl:}~~\dotfill~
+  \rl{\HMFElmiOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmiOl itshape:}~~\dotfill~
+  \rl{\HMFElmiOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmiOl slshape:}~~\dotfill~
+  \rl{\HMFElmiOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmiSd:}~~\dotfill~
+  \rl{\HMFElmiSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmiSd itshape:}~~\dotfill~
+  \rl{\HMFElmiSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFElmiSd slshape:}~~\dotfill~
+  \rl{\HMFElmiSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnaz:}~~\dotfill~
+  \rl{\HMFFarnaz \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnaz bfseries:}~~\dotfill~
+  \rl{\HMFFarnaz\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnaz itshape:}~~\dotfill~
+  \rl{\HMFFarnaz\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnaz bfseries itshape:}~~\dotfill~
+  \rl{\HMFFarnaz\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnaz slshape:}~~\dotfill~
+  \rl{\HMFFarnaz\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnaz bfseries slshape:}~~\dotfill~
+  \rl{\HMFFarnaz\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnazOl:}~~\dotfill~
+  \rl{\HMFFarnazOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnazOl itshape:}~~\dotfill~
+  \rl{\HMFFarnazOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnazOl slshape:}~~\dotfill~
+  \rl{\HMFFarnazOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnazSd:}~~\dotfill~
+  \rl{\HMFFarnazSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnazSd itshape:}~~\dotfill~
+  \rl{\HMFFarnazSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFFarnazSd slshape:}~~\dotfill~
+  \rl{\HMFFarnazSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHoma:}~~\dotfill~
+  \rl{\HMFHoma \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHoma bfseries:}~~\dotfill~
+  \rl{\HMFHoma\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHoma itshape:}~~\dotfill~
+  \rl{\HMFHoma\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHoma bfseries itshape:}~~\dotfill~
+  \rl{\HMFHoma\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHoma slshape:}~~\dotfill~
+  \rl{\HMFHoma\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHoma bfseries slshape:}~~\dotfill~
+  \rl{\HMFHoma\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHomaOl:}~~\dotfill~
+  \rl{\HMFHomaOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHomaOl itshape:}~~\dotfill~
+  \rl{\HMFHomaOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHomaOl slshape:}~~\dotfill~
+  \rl{\HMFHomaOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHomaSd:}~~\dotfill~
+  \rl{\HMFHomaSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHomaSd itshape:}~~\dotfill~
+  \rl{\HMFHomaSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFHomaSd slshape:}~~\dotfill~
+  \rl{\HMFHomaSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadid:}~~\dotfill~
+  \rl{\HMFJadid \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadid bfseries:}~~\dotfill~
+  \rl{\HMFJadid\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadid itshape:}~~\dotfill~
+  \rl{\HMFJadid\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadid bfseries itshape:}~~\dotfill~
+  \rl{\HMFJadid\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadid slshape:}~~\dotfill~
+  \rl{\HMFJadid\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadid bfseries slshape:}~~\dotfill~
+  \rl{\HMFJadid\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadidOl:}~~\dotfill~
+  \rl{\HMFJadidOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadidOl itshape:}~~\dotfill~
+  \rl{\HMFJadidOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadidOl slshape:}~~\dotfill~
+  \rl{\HMFJadidOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadidSd:}~~\dotfill~
+  \rl{\HMFJadidSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadidSd itshape:}~~\dotfill~
+  \rl{\HMFJadidSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFJadidSd slshape:}~~\dotfill~
+  \rl{\HMFJadidSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamran:}~~\dotfill~
+  \rl{\HMFKamran \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamran bfseries:}~~\dotfill~
+  \rl{\HMFKamran\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamran itshape:}~~\dotfill~
+  \rl{\HMFKamran\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamran bfseries itshape:}~~\dotfill~
+  \rl{\HMFKamran\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamran slshape:}~~\dotfill~
+  \rl{\HMFKamran\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamran bfseries slshape:}~~\dotfill~
+  \rl{\HMFKamran\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamranOl:}~~\dotfill~
+  \rl{\HMFKamranOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamranOl itshape:}~~\dotfill~
+  \rl{\HMFKamranOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamranOl slshape:}~~\dotfill~
+  \rl{\HMFKamranOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamranSd:}~~\dotfill~
+  \rl{\HMFKamranSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamranSd itshape:}~~\dotfill~
+  \rl{\HMFKamranSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKamranSd slshape:}~~\dotfill~
+  \rl{\HMFKamranSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodak:}~~\dotfill~
+  \rl{\HMFKoodak \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodak bfseries:}~~\dotfill~
+  \rl{\HMFKoodak\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodak itshape:}~~\dotfill~
+  \rl{\HMFKoodak\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodak bfseries itshape:}~~\dotfill~
+  \rl{\HMFKoodak\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodak slshape:}~~\dotfill~
+  \rl{\HMFKoodak\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodak bfseries slshape:}~~\dotfill~
+  \rl{\HMFKoodak\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodakOl:}~~\dotfill~
+  \rl{\HMFKoodakOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodakOl itshape:}~~\dotfill~
+  \rl{\HMFKoodakOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodakOl slshape:}~~\dotfill~
+  \rl{\HMFKoodakOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodakSd:}~~\dotfill~
+  \rl{\HMFKoodakSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodakSd itshape:}~~\dotfill~
+  \rl{\HMFKoodakSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFKoodakSd slshape:}~~\dotfill~
+  \rl{\HMFKoodakSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoos:}~~\dotfill~
+  \rl{\HMFLotoos \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoos bfseries:}~~\dotfill~
+  \rl{\HMFLotoos\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoos itshape:}~~\dotfill~
+  \rl{\HMFLotoos\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoos bfseries itshape:}~~\dotfill~
+  \rl{\HMFLotoos\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoos slshape:}~~\dotfill~
+  \rl{\HMFLotoos\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoos bfseries slshape:}~~\dotfill~
+  \rl{\HMFLotoos\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoosOl:}~~\dotfill~
+  \rl{\HMFLotoosOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoosOl itshape:}~~\dotfill~
+  \rl{\HMFLotoosOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoosOl slshape:}~~\dotfill~
+  \rl{\HMFLotoosOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoosSd:}~~\dotfill~
+  \rl{\HMFLotoosSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoosSd itshape:}~~\dotfill~
+  \rl{\HMFLotoosSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFLotoosSd slshape:}~~\dotfill~
+  \rl{\HMFLotoosSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitra:}~~\dotfill~
+  \rl{\HMFMitra \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitra bfseries:}~~\dotfill~
+  \rl{\HMFMitra\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitra itshape:}~~\dotfill~
+  \rl{\HMFMitra\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitra bfseries itshape:}~~\dotfill~
+  \rl{\HMFMitra\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitra slshape:}~~\dotfill~
+  \rl{\HMFMitra\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitra bfseries slshape:}~~\dotfill~
+  \rl{\HMFMitra\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitraOl:}~~\dotfill~
+  \rl{\HMFMitraOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitraOl itshape:}~~\dotfill~
+  \rl{\HMFMitraOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitraOl slshape:}~~\dotfill~
+  \rl{\HMFMitraOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitraSd:}~~\dotfill~
+  \rl{\HMFMitraSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitraSd itshape:}~~\dotfill~
+  \rl{\HMFMitraSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFMitraSd slshape:}~~\dotfill~
+  \rl{\HMFMitraSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasim:}~~\dotfill~
+  \rl{\HMFNasim \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasim bfseries:}~~\dotfill~
+  \rl{\HMFNasim\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasim itshape:}~~\dotfill~
+  \rl{\HMFNasim\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasim bfseries itshape:}~~\dotfill~
+  \rl{\HMFNasim\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasim slshape:}~~\dotfill~
+  \rl{\HMFNasim\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasim bfseries slshape:}~~\dotfill~
+  \rl{\HMFNasim\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasimOl:}~~\dotfill~
+  \rl{\HMFNasimOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasimOl itshape:}~~\dotfill~
+  \rl{\HMFNasimOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasimOl slshape:}~~\dotfill~
+  \rl{\HMFNasimOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasimSd:}~~\dotfill~
+  \rl{\HMFNasimSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasimSd itshape:}~~\dotfill~
+  \rl{\HMFNasimSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNasimSd slshape:}~~\dotfill~
+  \rl{\HMFNasimSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazli:}~~\dotfill~
+  \rl{\HMFNazli \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazli bfseries:}~~\dotfill~
+  \rl{\HMFNazli\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazli itshape:}~~\dotfill~
+  \rl{\HMFNazli\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazli bfseries itshape:}~~\dotfill~
+  \rl{\HMFNazli\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazli slshape:}~~\dotfill~
+  \rl{\HMFNazli\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazli bfseries slshape:}~~\dotfill~
+  \rl{\HMFNazli\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazliOl:}~~\dotfill~
+  \rl{\HMFNazliOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazliOl itshape:}~~\dotfill~
+  \rl{\HMFNazliOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazliOl slshape:}~~\dotfill~
+  \rl{\HMFNazliOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazliSd:}~~\dotfill~
+  \rl{\HMFNazliSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazliSd itshape:}~~\dotfill~
+  \rl{\HMFNazliSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFNazliSd slshape:}~~\dotfill~
+  \rl{\HMFNazliSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoya:}~~\dotfill~
+  \rl{\HMFRoya \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoya bfseries:}~~\dotfill~
+  \rl{\HMFRoya\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoya itshape:}~~\dotfill~
+  \rl{\HMFRoya\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoya bfseries itshape:}~~\dotfill~
+  \rl{\HMFRoya\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoya slshape:}~~\dotfill~
+  \rl{\HMFRoya\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoya bfseries slshape:}~~\dotfill~
+  \rl{\HMFRoya\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoyaOl:}~~\dotfill~
+  \rl{\HMFRoyaOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoyaOl itshape:}~~\dotfill~
+  \rl{\HMFRoyaOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoyaOl slshape:}~~\dotfill~
+  \rl{\HMFRoyaOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoyaSd:}~~\dotfill~
+  \rl{\HMFRoyaSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoyaSd itshape:}~~\dotfill~
+  \rl{\HMFRoyaSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFRoyaSd slshape:}~~\dotfill~
+  \rl{\HMFRoyaSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassom:}~~\dotfill~
+  \rl{\HMFTabassom \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassom bfseries:}~~\dotfill~
+  \rl{\HMFTabassom\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassom itshape:}~~\dotfill~
+  \rl{\HMFTabassom\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassom bfseries itshape:}~~\dotfill~
+  \rl{\HMFTabassom\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassom slshape:}~~\dotfill~
+  \rl{\HMFTabassom\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassom bfseries slshape:}~~\dotfill~
+  \rl{\HMFTabassom\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassomOl:}~~\dotfill~
+  \rl{\HMFTabassomOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassomOl itshape:}~~\dotfill~
+  \rl{\HMFTabassomOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassomOl slshape:}~~\dotfill~
+  \rl{\HMFTabassomOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassomSd:}~~\dotfill~
+  \rl{\HMFTabassomSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassomSd itshape:}~~\dotfill~
+  \rl{\HMFTabassomSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTabassomSd slshape:}~~\dotfill~
+  \rl{\HMFTabassomSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitr:}~~\dotfill~
+  \rl{\HMFTitr \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitr bfseries:}~~\dotfill~
+  \rl{\HMFTitr\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitr itshape:}~~\dotfill~
+  \rl{\HMFTitr\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitr bfseries itshape:}~~\dotfill~
+  \rl{\HMFTitr\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitr slshape:}~~\dotfill~
+  \rl{\HMFTitr\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitr bfseries slshape:}~~\dotfill~
+  \rl{\HMFTitr\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitrOl:}~~\dotfill~
+  \rl{\HMFTitrOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitrOl itshape:}~~\dotfill~
+  \rl{\HMFTitrOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitrOl slshape:}~~\dotfill~
+  \rl{\HMFTitrOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitrSd:}~~\dotfill~
+  \rl{\HMFTitrSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitrSd itshape:}~~\dotfill~
+  \rl{\HMFTitrSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTitrSd slshape:}~~\dotfill~
+  \rl{\HMFTitrSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTraffic:}~~\dotfill~
+  \rl{\HMFTraffic \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTraffic bfseries:}~~\dotfill~
+  \rl{\HMFTraffic\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTraffic itshape:}~~\dotfill~
+  \rl{\HMFTraffic\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTraffic bfseries itshape:}~~\dotfill~
+  \rl{\HMFTraffic\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTraffic slshape:}~~\dotfill~
+  \rl{\HMFTraffic\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTraffic bfseries slshape:}~~\dotfill~
+  \rl{\HMFTraffic\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTrafficOl:}~~\dotfill~
+  \rl{\HMFTrafficOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTrafficOl itshape:}~~\dotfill~
+  \rl{\HMFTrafficOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTrafficOl slshape:}~~\dotfill~
+  \rl{\HMFTrafficOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTrafficSd:}~~\dotfill~
+  \rl{\HMFTrafficSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTrafficSd itshape:}~~\dotfill~
+  \rl{\HMFTrafficSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFTrafficSd slshape:}~~\dotfill~
+  \rl{\HMFTrafficSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghut:}~~\dotfill~
+  \rl{\HMFYaghut \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghut bfseries:}~~\dotfill~
+  \rl{\HMFYaghut\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghut itshape:}~~\dotfill~
+  \rl{\HMFYaghut\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghut bfseries itshape:}~~\dotfill~
+  \rl{\HMFYaghut\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghut slshape:}~~\dotfill~
+  \rl{\HMFYaghut\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghut bfseries slshape:}~~\dotfill~
+  \rl{\HMFYaghut\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghutOl:}~~\dotfill~
+  \rl{\HMFYaghutOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghutOl itshape:}~~\dotfill~
+  \rl{\HMFYaghutOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghutOl slshape:}~~\dotfill~
+  \rl{\HMFYaghutOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghutSd:}~~\dotfill~
+  \rl{\HMFYaghutSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghutSd itshape:}~~\dotfill~
+  \rl{\HMFYaghutSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFYaghutSd slshape:}~~\dotfill~
+  \rl{\HMFYaghutSd\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZar:}~~\dotfill~
+  \rl{\HMFZar \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZar bfseries:}~~\dotfill~
+  \rl{\HMFZar\bfseries \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZar itshape:}~~\dotfill~
+  \rl{\HMFZar\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZar bfseries itshape:}~~\dotfill~
+  \rl{\HMFZar\bfseries\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZar slshape:}~~\dotfill~
+  \rl{\HMFZar\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZar bfseries slshape:}~~\dotfill~
+  \rl{\HMFZar\bfseries\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZarOl:}~~\dotfill~
+  \rl{\HMFZarOl \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZarOl itshape:}~~\dotfill~
+  \rl{\HMFZarOl\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZarOl slshape:}~~\dotfill~
+  \rl{\HMFZarOl\slshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZarSd:}~~\dotfill~
+  \rl{\HMFZarSd \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZarSd itshape:}~~\dotfill~
+  \rl{\HMFZarSd\itshape \SampleText}\eL} \\
+
+\makebox[550pt]{\bL\lr{HMFZarSd slshape:}~~\dotfill~
+  \rl{\HMFZarSd\slshape \SampleText}\eL} \\
+
+\end{document}
+
